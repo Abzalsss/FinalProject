@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather app</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app">
+        <h1><i class="fas fa-sun"></i> Weather</h1>
+        <input type="text" id="city-input" placeholder="Введите название города">
+        <button id="get-weather-btn">search</button>
+        <div id="weather-info"></div>
+        <div id="map"></div>
+        <div id="exchange-rate-info"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
